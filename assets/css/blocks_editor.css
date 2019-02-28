@@ -1,0 +1,94 @@
+.editor-block-list__block[data-type="machoblocks/highlight"] {
+  background: transparent !important; }
+
+.editor-block-list__block[data-type="machoblocks/click-to-tweet"] .components-toolbar {
+  transform: translate3d(0, 0, 0); }
+
+.wp-block-machoblocks-click-to-tweet {
+  margin: 0; }
+  .wp-block-machoblocks-click-to-tweet a {
+    pointer-events: none; }
+  .wp-block-machoblocks-click-to-tweet__twitter-btn {
+    line-height: 34px;
+    margin-left: 40px;
+    margin-top: 15px; }
+    .wp-block-machoblocks-click-to-tweet__twitter-btn:active::before {
+      animation: none; }
+    .wp-block-machoblocks-click-to-tweet__twitter-btn[data-is-placeholder-visible="true"] {
+      max-width: 128px; }
+  .wp-block-machoblocks-click-to-tweet__via {
+    margin: 3px;
+    padding-left: 26px !important; }
+  .wp-block-machoblocks-click-to-tweet__via-label {
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    font-size: 12px;
+    height: 36px;
+    left: 7px;
+    position: absolute;
+    white-space: nowrap; }
+    .wp-block-machoblocks-click-to-tweet__via-label svg {
+      color: #555d66; }
+  .wp-block-machoblocks-click-to-tweet__via-wrapper {
+    position: relative; }
+  .edit-post-header-toolbar__block-toolbar .wp-block-machoblocks-click-to-tweet__via {
+    border-color: #8d96a0;
+    border-radius: 3px;
+    box-shadow: 0 0 0 transparent;
+    margin: 4px;
+    padding-bottom: 3px;
+    padding-top: 3px; }
+    @media (min-width: 1080px) {
+      .edit-post-header-toolbar__block-toolbar .wp-block-machoblocks-click-to-tweet__via {
+        border-radius: 4px;
+        margin: 2px 4px;
+        padding-left: 28px !important;
+        padding-right: 4px; } }
+    .edit-post-header-toolbar__block-toolbar .wp-block-machoblocks-click-to-tweet__via:focus {
+      border-color: #00a0d2;
+      box-shadow: 0 0 0 1px #00a0d2;
+      color: #191e23;
+      outline-offset: -2px;
+      outline: 2px solid transparent; }
+  .edit-post-header-toolbar__block-toolbar .wp-block-machoblocks-click-to-tweet__via-label {
+    padding-left: 2px; }
+
+.editor-block-list__block[data-type="machoblocks/plugin-card"] .wp-block-machoblocks-plugin-card__placeholder {
+  width: 100%;
+  position: relative; }
+  .editor-block-list__block[data-type="machoblocks/plugin-card"] .wp-block-machoblocks-plugin-card__placeholder .dashicon {
+    position: absolute;
+    left: 6px;
+    top: 6px; }
+  .editor-block-list__block[data-type="machoblocks/plugin-card"] .wp-block-machoblocks-plugin-card__placeholder input {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .editor-block-list__block[data-type="machoblocks/plugin-card"] .wp-block-machoblocks-plugin-card__placeholder .components-spinner {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    margin: 0; }
+
+.editor-block-list__block[data-type="machoblocks/plugin-card"] .wp-block-machoblocks-plugin-card__search-results {
+  box-shadow: 0px 2px 70px 0px rgba(0, 0, 0, 0.04);
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+  .editor-block-list__block[data-type="machoblocks/plugin-card"] .wp-block-machoblocks-plugin-card__search-results > div {
+    padding: 0.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    cursor: pointer;
+    border-top: 1px solid #F3F3F4; }
+    .editor-block-list__block[data-type="machoblocks/plugin-card"] .wp-block-machoblocks-plugin-card__search-results > div:hover {
+      background-color: #F3F3F4; }
+    .editor-block-list__block[data-type="machoblocks/plugin-card"] .wp-block-machoblocks-plugin-card__search-results > div img {
+      width: 40px;
+      height: 40px;
+      margin-right: 1rem; }

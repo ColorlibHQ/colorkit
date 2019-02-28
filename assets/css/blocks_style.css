@@ -1,0 +1,139 @@
+.wp-block-machoblocks-highlight {
+  background: transparent !important; }
+  .wp-block-machoblocks-highlight:empty {
+    display: none; }
+  .wp-block-machoblocks-highlight + .wp-block-machoblocks-highlight {
+    padding-top: 7px; }
+  .wp-block-machoblocks-highlight__content {
+    padding: 2px 5px 2px 3px;
+    position: relative;
+    border-radius: 6px; }
+  .wp-block-machoblocks-highlight__content:not(.has-background) {
+    background-color: #f3ead1; }
+
+.wp-block-machoblocks-click-to-tweet {
+  border-radius: 6px;
+  margin-bottom: 1.9em;
+  position: relative;
+  border: 1px solid transparent; }
+  .wp-block-machoblocks-click-to-tweet__text {
+    margin-bottom: 0;
+    position: relative; }
+    .wp-block-machoblocks-click-to-tweet__text a {
+      box-shadow: none !important;
+      text-decoration: none !important; }
+  .wp-block-machoblocks-click-to-tweet__twitter-btn:not(.has-button-color) {
+    background: #1da1f2; }
+  .wp-block-machoblocks-click-to-tweet__twitter-btn {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border-radius: 6px;
+    border: none;
+    box-shadow: none !important;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-top: 10px;
+    padding: 0.28em 1em;
+    position: relative;
+    text-decoration: none !important;
+    white-space: normal;
+    word-break: break-all; }
+    .wp-block-machoblocks-click-to-tweet__twitter-btn::before {
+      content: "";
+      display: inline-block;
+      height: 18px;
+      margin-right: 5px;
+      background: url(../img/icons/twitter.svg) no-repeat 50% 50%;
+      background-size: cover;
+      position: relative;
+      top: 4px;
+      width: 18px; }
+    .wp-block-machoblocks-click-to-tweet__twitter-btn:active::before {
+      animation: pulse 200ms;
+      animation-timing-function: ease-out;
+      animation-fill-mode: none; }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  15% {
+    transform: scale(0.9); }
+  100% {
+    transform: scale(1); } }
+
+.wp-block-machoblocks-plugin-card {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: -3px 2px 70px 0px rgba(0, 0, 0, 0.07); }
+
+.wp-block-machoblocks-plugin-card__details {
+  padding: 1.5rem;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  background-color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .wp-block-machoblocks-plugin-card__details > div:last-child {
+    width: calc(100% - 128px);
+    padding-left: 2rem; }
+
+.wp-block-machoblocks-plugin-card__icon {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 0;
+  display: block;
+  border-radius: 0.2rem; }
+
+.wp-block-machoblocks-plugin-card__download {
+  padding: 0.25rem 0.5rem;
+  background: #2ecc71;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem; }
+  .wp-block-machoblocks-plugin-card__download:hover {
+    color: #fff;
+    background: #25a25a; }
+
+.wp-block-machoblocks-plugin-card__stats {
+  padding: 1.5rem;
+  border-top: 2px solid #f5f5f5;
+  background-color: #fff;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .wp-block-machoblocks-plugin-card__stats > div {
+    padding-right: 1rem;
+    width: 33%;
+    text-align: center; }
+
+.wp-block-machoblocks-plugin-card__rating > div {
+  display: inline-block;
+  width: 20px;
+  height: 20px; }
+
+.wp-block-machoblocks-plugin__star-full {
+  background: url(../img/icons/star-full.svg) no-repeat 50% 50%;
+  background-size: 100%; }
+
+.wp-block-machoblocks-plugin__star-half {
+  background: url(../img/icons/star-half.svg) no-repeat 50% 50%;
+  background-size: 100%; }
+
+.wp-block-machoblocks-plugin__star-empty {
+  background: url(../img/icons/star-empty.svg) no-repeat 50% 50%;
+  background-size: 100%; }

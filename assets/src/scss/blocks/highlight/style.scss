@@ -1,0 +1,21 @@
+.wp-block-machoblocks-highlight {
+	background: transparent !important;
+
+	&:empty {
+		display: none;
+	}
+
+	& + & {
+		padding-top: 7px;
+	}
+
+	&__content {
+		padding: 2px 5px 2px 3px;
+		position: relative;
+		border-radius: 6px;
+	}
+
+	&__content:not(.has-background) {
+		background-color: #f3ead1;
+	}
+}
