@@ -42,7 +42,7 @@ class MachoBlocks_Plugin_Card {
 					</div>
 					<div>
 						<h5 class="wp-block-machoblocks-plugin-card__name"><?php echo $plugin['name']; ?></h5>
-						<div class="wp-block-machoblocks-plugin-card__description"><p><?php echo $plugin['short_description']; ?><br/><a href="<?php echo esc_url( 'https://wordpress.org/plugins/' . $plugin['slug'] ); ?>" target="_blank">See plugin page</a></p></div>
+						<div class="wp-block-machoblocks-plugin-card__description"><p><?php echo $plugin['short_description']; ?> <a href="<?php echo esc_url( 'https://wordpress.org/plugins/' . $plugin['slug'] ); ?>" target="_blank">Read More</a></p></div>
 						<div class="wp-block-machoblocks-plugin-card__sub">
 							<div class="wp-block-machoblocks-plugin-card__author">
 								by <?php echo $plugin['author']; ?>
