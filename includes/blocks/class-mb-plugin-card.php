@@ -39,10 +39,11 @@ class MachoBlocks_Plugin_Card {
 					<div>
 						<img class="wp-block-machoblocks-plugin-card__icon" src="<?php echo esc_url( self::get_plugin_icon( $plugin ) ); ?>" alt="<?php echo esc_attr( $plugin['name'] ); ?>" />
 						<a class="wp-block-machoblocks-plugin-card__download" href="<?php echo esc_url( $plugin['download_link'] ); ?>">Download</a>
+						<a class="wp-block-machoblocks-plugin-card__more" href="<?php echo esc_url( 'https://wordpress.org/plugins/' . $plugin['slug'] ); ?>" target="_blank">Read More</a>
 					</div>
 					<div>
 						<h5 class="wp-block-machoblocks-plugin-card__name"><?php echo $plugin['name']; ?></h5>
-						<div class="wp-block-machoblocks-plugin-card__description"><p><?php echo $plugin['short_description']; ?> <a href="<?php echo esc_url( 'https://wordpress.org/plugins/' . $plugin['slug'] ); ?>" target="_blank">Read More</a></p></div>
+						<div class="wp-block-machoblocks-plugin-card__description"><p><?php echo $plugin['short_description']; ?></p></div>
 						<div class="wp-block-machoblocks-plugin-card__sub">
 							<div class="wp-block-machoblocks-plugin-card__author">
 								by <?php echo $plugin['author']; ?>

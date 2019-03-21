@@ -81,6 +81,8 @@
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between; }
+  .wp-block-machoblocks-plugin-card__details > div:first-child {
+    width: 128px; }
   .wp-block-machoblocks-plugin-card__details > div:last-child {
     width: calc(100% - 128px);
     padding-left: 2rem; }
@@ -105,6 +107,17 @@
   .wp-block-machoblocks-plugin-card__download:hover {
     color: #fff;
     background: #25a25a; }
+
+.wp-block-machoblocks-plugin-card__more {
+  padding: 0.25rem 0.5rem;
+  background: #d2d2d2;
+  color: #333;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem; }
 
 .wp-block-machoblocks-plugin-card__stats {
   padding: 1.5rem;

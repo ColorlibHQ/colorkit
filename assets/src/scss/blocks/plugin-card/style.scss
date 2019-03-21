@@ -12,8 +12,8 @@
 	display: flex;
 	justify-content: space-between;
 
-	> div {
-		//background: red;
+	> div:first-child {
+		width: 128px;
 	}
 
 	> div:last-child {
@@ -47,6 +47,18 @@
 		color: #fff;
 		background: darken( #2ecc71, 10% );
 	}
+}
+
+.wp-block-machoblocks-plugin-card__more {
+	padding: 0.25rem 0.5rem;
+	background: #d2d2d2;
+	color: #333;
+	text-decoration: none;
+	border-radius: 0.2rem;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 0.5rem;
 }
 
 .wp-block-machoblocks-plugin-card__stats {
